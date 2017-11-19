@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:OneDriveBomb" x:Class="OneDriveBomb.OneDriveBombPage">
+
+    <StackLayout>
+        <Label Text="Avoid triggering the BOMB!!" VerticalOptions="Center" HorizontalOptions="Center" />
+        
+        <Button Text="1" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" Clicked="ButtonClicked"></Button>
+        <Button Text="2" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" Clicked="ButtonClicked"></Button>
+        <Button Text="3" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" Clicked="ButtonClicked"></Button>
+        <Button Text="4" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" Clicked="ButtonClicked"></Button>
+        
+        <Label Text="Welcome to my world. Anvesh!" VerticalOptions="Center" HorizontalOptions="Center" />
+         
+    </StackLayout>
+   
+</ContentPage>
